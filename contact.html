@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+        <!--Link html and css-->
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+        <style>
+          /*Style logo */
+           img{
+            display: block;
+            width: 20%;
+            margin-left: auto ;
+            margin-right: auto;
+           }
+    
+     
+          /*style the table*/
+           table,th,td{
+            border: 1px solid purple;
+        }
+        </style>
+</head>
+<body>
+    <div><!-- adding logo to website page-->
+        <img src="images/Better tomorrow logo.jpeg" alt="Logo" width="150" height="150">
+    </div>
+    
+<div class="header"> <!-- adding company name and slogan-->
+  <h1>Better Tommorrow</h1>
+  <h3>Inspired By Dreams</h3>
+</div>
+
+<div class="row"><!--linking other pages to webpage-->
+  <div class="col-3 col-s-3 menu"><!--linking other pages to webpage-->
+    <ul>
+      <li><a href="home.html"> <i class="fa fa-fw fa-home"></i> Home</a></li>
+      <li><a href="about.html">  <i class="fa fa-fw fa-group"></i>About</a></li>
+      <li><a href="gallery.html">  <i class="fa fa-fw fa-image"></i>Gallery</a></li>
+      <li><a href="services.html"><i class="fa fa-fw fa-gear"></i> Services</a></li>
+      <li><a href="donate.html">  <i class="fa fa-fw fa-money"></i>Donate</a> </li>
+    </ul>
+  </div>
+  
+
+   
+
+  <div class="col-6 col-s-9" id="contact"><!-- adding class for css responsive-->
+  <table>
+    <!--titles for top row-->
+    <th>Telephone</th>
+    <tr><td> 031 456 5678 </td></tr>
+    <th>Cellphone</th>
+    <tr><td> 083 739 7521 </td></tr>   
+    <th>Email</th>
+    <tr><td> bettertomorrow@gmail.com </td></tr>
+    <th>Instagram</th>
+    <tr><td> Better_Tomorrow_23K <a href="https://www.instagram.com/katelyn_narain_01/">Katelyn ig</a></td></tr>
+    <th>Facebook</th>
+    <tr><td> Better_Tomorrow_23K <a href="https://www.facebook.com/katelyn.narain.10">Katelyn Narain facebook</a> </td></tr>
+
+  </table>
+</div> 
+
+<div class="col-6 col-s-9" id="survey" >
+  <h1>Reg Form</h1>
+    <form id="regForm">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <span id="nameError" class="error"></span>
+
+        </div>
+
+         <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <span id="emailError" class="error"></span>
+        </div>
+
+        <div>
+          <label for="service">Service interested in:</label>
+          <input type="text" id="service" name="service">
+
+          <span id="serviceError" class="error"></span>
+      </div>
+
+        <input type="submit">
+        <form action="narainkatelyn@gmail.com" method="POST" enctype="text/plain">
+         
+        </form>
+
+        <script src="contact.js"></script></form>
+
+</div> 
+</div>
+
+<div class="footer"><!-- the footer-->
+    <p>Inspired By Dreams</p>
+    <p>copyright 2023</p>
+    <p>www.BetterTomorrow.com</p>
+  </div>
+  
+  
+  </body>
+  </html>

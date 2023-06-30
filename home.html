@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+        <!--Link html and css-->
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+        <style>
+          /*Style logo */
+           img{
+            display: block;
+            width: 20%;
+            margin-left: auto ;
+            margin-right: auto;
+           }
+    
+        </style>
+</head>
+<body>
+    <div> <!-- add logo-->
+        <img src="images/Better tomorrow logo.jpeg" alt="Logo" width="150" height="150">
+    </div>
+    
+<div class="header"> <!-- add Company name and slogan-->
+  <h1>Better Tommorrow</h1>
+  <h3>Inspired By Dreams</h3>
+</div>
+
+<div class="row"> <!-- links to other pages-->
+  <div class="col-3 col-s-3 menu"> <!-- div class for css responsive-->
+    <ul>
+      <li><a href="about.html">  <i class="fa fa-fw fa-group"></i>About</a></li>
+      <li><a href="gallery.html">  <i class="fa fa-fw fa-image"></i>Gallery</a></li>
+      <li><a href="contact.html"> <i class="fa fa-fw fa-envelope"></i>Contact</a></li>
+      <li><a href="services.html"><i class="fa fa-fw fa-gear"></i> Services</a></li>
+      <li><a href="donate.html">  <i class="fa fa-fw fa-money"></i>Donate</a> </li>
+    </ul>
+  </div>
+
+
+
+  <div class="col-6 col-s-9" id="Content"> <!-- div class for css responsive-->
+    <p>As our world countinues to grow and change, communities are faced with a variety
+            of challenges.One of the most pressing is the issue of abandoned buildings.
+            These structures, which once served as homes, businesses, and community ceners,
+            now stand empty and neglected. But with some creative thinking, we can turn these
+            abandoned spaces into valuable resources for our communities.
+          </p>
+        
+          <p>
+            First and foremost, utilizing abandoned buildings can help to address the issue 
+            of blight. abandoned buildings are often eyesores in neighbourhoods, bringig down 
+            property values and discouraging further investment. By repurposed these structures, we 
+            can breathe new life into neglected areas, creating a more attractive and vibrant 
+            community.
+          </p>
+
+          <p>
+            But the benefits of using abandoned buildings go beyond simple aesthetics. These spaces
+            can be repurposed to serve a variety of important purposes. For instance, abandoned 
+            factories might be turned into art studios or community centers. Old schools might 
+            become affordable housing for those in need. By repurposing these structures, we can 
+            create new spaces that serve the needs.
+          </p>
+    </div>
+
+    
+    <div class="col-3 col-s-9"> 
+        <div class="aside"> 
+            <h3>Abandoned Facts Game</h3>
+              <button class="col-6 col-s-9" id="factButton">Click for an abandoned building Fact</button>
+              <p id="factDisplay"></p>
+          
+            <script src="facts.js"></script>    
+        
+        </div>
+      </div>
+  <div>
+    <video width="320" height="240" autoplay>
+      <source src="images/InShot_20230529_142511538.mp4" type="video/mp4">
+      </video>
+  </div>
+</div>
+
+
+
+<div class="footer"> <!-- the footer -->
+  <p>Inspired By Dreams</p>
+  <p>copyright 2023</p>
+  <p>www.BetterTomorrow.com</p>
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGacIQOUCM12NUMPBUGrEhwSIZv366wRzzcmJxdBf6Q1oAZQ/viewform?embedded=true" width="500" height="200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+
+</body>
+</html>
